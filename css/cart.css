@@ -1,0 +1,21 @@
+#cart-details {
+    padding: 20px 0;    
+}
+
+.cart-sum-container {   
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cart-sum-container h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    color: #0CDf2C;
+}
+
+.card-item-container img{
+    width: 80px;
+}
