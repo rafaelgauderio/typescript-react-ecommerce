@@ -34,6 +34,10 @@ html, body {
     background-color: var(--color-bg-primary);
 }
 
+main {
+    padding: 0 15px;
+}
+
 /* generic styles */
 .ec-container {
     width: 100%;
@@ -61,6 +65,7 @@ header {
     align-items: center;
     background-color: var(--color-bg-secondary);
     height: 70px;
+    padding: 0 15px;
 }
 
 nav {    
@@ -94,7 +99,7 @@ a, a:hover {
 
 /* button styles */
 .ec-btn-container {
-    width: 230px;  
+    width: 100%;  
     display: grid;
     grid-gap: 20px;   
 }
@@ -108,7 +113,7 @@ a, a:hover {
     font-weight: 500;
     border-radius: 5px;
     height: 40px; 
-    width: 230px;             
+    width: 100%;             
 }
 
 .ec-btn-comprar, .ec-btn-finalizar {
