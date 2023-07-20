@@ -5,7 +5,7 @@
 }
 
 .ec-cart-sum-container {   
-    padding-top: 0;
+    padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -14,14 +14,13 @@
 .ec-cart-sum-container h3 {
     font-size: 18px;
     font-weight: 700;
-    text-align: right;
+    text-align: left;
     color: var(--color-font-secondary);
 }
 
 .ec-cart-item-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;    
+    flex-direction: column; /* um em baixo do outro*/       
     padding: 0 20px;
 }
 
@@ -36,8 +35,8 @@
 }
 
 .ec-cart-item-parameters {
-    padding: 10px 0;
-    color: var(--color-font-primary);      
+    padding: 10px 0 10px 20px;
+    color: var(--color-font-primary);          
 }
 
 .ec-cart-item-parameters h3 {
