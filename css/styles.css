@@ -34,37 +34,11 @@ html, body {
     background-color: var(--color-bg-primary);
 }
 
-header {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-bg-secondary);
-    height: 70px;
-}
-
+/* generic styles */
 .ec-container {
     width: 100%;
     margin: 0 auto;  
     max-width: 960px;
-}
-
-nav {    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;    
-    color: var(--color-font-primary);     
-}
-
-a, a:hover {   
-    text-decoration: none;
-    color: unset;
-    text-transform: uppercase;
-}
-
-.ec-card-general {
-    background-color: var(--color-bg-white);     
-    border-radius: 8px;
-    border: 1.5px solid var(--color-border-light);         
 }
 
 .ec-line-top {
@@ -78,7 +52,47 @@ a, a:hover {
 .ec-margin-botton-20px {
     margin-bottom: 20px;    
 }
+/* generic styles */
 
+
+/* header and nav syles */
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-bg-secondary);
+    height: 70px;
+}
+
+nav {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    color: var(--color-font-primary);     
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a, a:hover {   
+    text-decoration: none;
+    color: unset;
+    text-transform: uppercase;
+}
+/* header and nav syles */
+
+/* card styles */
+.ec-card-general {
+    background-color: var(--color-bg-white);     
+    border-radius: 8px;
+    border: 1.5px solid var(--color-border-light);         
+}
+/* card styles */
+
+
+/* button styles */
 .ec-btn-container {
     width: 230px;  
     display: grid;
@@ -108,3 +122,5 @@ a, a:hover {
     background-color: var(--color-bg-white);
     border: 1.5px solid var(--color-border-blue);
 }
+/* button styles */
+
