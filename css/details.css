@@ -1,11 +1,17 @@
 @import url("styles.css");
 
-.categories-container {
-    display: flex;
-    flex-direction: row;
+#product-details-section {
+    padding: 20px 0;    
 }
 
-.categories {
+
+.ec-categories-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*  quebrar a linha quando estourar o tamanho das categorias*/
+}
+
+.ec-categories {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,42 +27,39 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 
-.product-details-top {
+.ec-product-details-top {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10px;
 }
 
-.product-details-top img {
+.ec-product-details-top img {
     width: 250px;    
 }
 
-.product-details-bottom {    
+.ec-product-details-bottom {    
     padding-top: 10px;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 20px;
 }
 
-.product-details-bottom h3 {
-    color: var(--color-font-seconday);
+.ec-product-details-bottom h3 {
+    color: var(--color-font-secondary);
     font-size: 21px;
 }
 
-.product-details-bottom h4 {
+.ec-product-details-bottom h4 {
     color: var(--color-font-primary);
     font-size: 14px;
 }
 
-.product-details-bottom p {
+.ec-product-details-bottom p {
     color: var(--color-font-primary);
     font-size: 12px;
     margin: 10px 0;
-}
-
-#product-details {
-    padding: 20px 0;    
 }
