@@ -41,7 +41,7 @@ header {
     height: 70px;
 }
 
-.container {
+.ec-container {
     width: 100%;
     margin: 0 auto;  
     max-width: 960px;
@@ -61,31 +61,31 @@ a, a:hover {
     text-transform: uppercase;
 }
 
-.card-general {
+.ec-card-general {
     background-color: var(--color-bg-white);     
     border-radius: 8px;
     border: 1.5px solid var(--color-border-light);         
 }
 
-.line-top {
+.ec-line-top {
     border-top: 1.5px solid var(--color-border-light);
 }
 
-.line-bottom {
+.ec-line-bottom {
     border-bottom: 1.5px solid var(--color-border-light);
 }
 
-.margin-botton-20px {
+.ec-margin-botton-20px {
     margin-bottom: 20px;    
 }
 
-.btn-container {
+.ec-btn-container {
     width: 230px;  
     display: grid;
     grid-gap: 20px;   
 }
 
-.btn {
+.ec-btn {
     display: flex;
     flex-direction: row;  
     justify-content: center;  
@@ -97,13 +97,13 @@ a, a:hover {
     width: 230px;             
 }
 
-.btn-comprar, .btn-finalizar {
+.ec-btn-comprar, .ec-btn-finalizar {
     color: var(--color-font-white);
     background-color: var(--color-btn-blue);
     border: none;   
 }
 
-.btn-voltar, .btn-continuar {
+.ec-btn-voltar, .ec-btn-continuar {
     color: var(--color-btn-blue);
     background-color: var(--color-bg-white);
     border: 1.5px solid var(--color-border-blue);
