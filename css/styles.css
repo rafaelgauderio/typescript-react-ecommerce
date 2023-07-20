@@ -129,3 +129,12 @@ a, a:hover {
 }
 /* button styles */
 
+@media (min-width: 576px) {
+    
+    .ec-btn-container {
+        width: 240px;  
+        
+    }
+
+}
+
