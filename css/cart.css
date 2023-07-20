@@ -71,3 +71,17 @@
     margin: 0 5px;
     font-weight: 700;
 }
+
+@media (min-width: 576px) {
+
+    .ec-cart-item-container {       
+        flex-direction: row;       
+        justify-content: space-between;     
+    } 
+
+    .ec-cart-sum-container h3 {      
+        text-align: right;
+      
+    }
+
+}
