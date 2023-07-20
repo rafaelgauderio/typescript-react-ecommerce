@@ -1,3 +1,5 @@
+@import url("styles.css");
+
 .categories-container {
     display: flex;
     flex-direction: row;
@@ -40,17 +42,17 @@
 }
 
 .product-details-bottom h3 {
-    color: #0CDf2C;
+    color: var(--color-font-seconday);
     font-size: 21px;
 }
 
 .product-details-bottom h4 {
-    color: #454545;
+    color: var(--color-font-primary);
     font-size: 14px;
 }
 
 .product-details-bottom p {
-    color: #454545;
+    color: var(--color-font-primary);
     font-size: 12px;
     margin: 10px 0;
 }

@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 
+:root {
+    --color-bg-primary: #e6e6e6;
+    --color-bg-secondary: #90ee90;
+    --color-bg-white: #FFF;
+
+    --color-border-blue: #3485fB;
+    --color-border-light: #D6D6D6;
+
+    --color-btn-blue: #3485fB;
+    --color-btn-white: #FFF;
+
+    --color-font-primary:  #454545; 
+    --color-font-secondary: #0caf1d;
+    --color-font-white: #FFF;
+    --color-font-blue:#3485fB;
+
+    --color-success: #00C851;
+    --color-warning: #ffbb33;
+    --color-danger: #ff4444;
+    --color-info: #33b5e5;
+}
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,13 +31,13 @@
 }
 
 html, body {
-    background-color: #e6e6e6;
+    background-color: var(--color-bg-primary);
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #90ee90;
+    background-color: var(--color-bg-secondary);
     height: 70px;
 }
 
@@ -29,7 +52,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;    
-    color: #454545;     
+    color: var(--color-font-primary);     
 }
 
 a, a:hover {   
@@ -39,17 +62,17 @@ a, a:hover {
 }
 
 .card-general {
-    background-color: #FFF;     
+    background-color: var(--color-bg-white);     
     border-radius: 8px;
-    border: 1.5px solid #D7D7D7;         
+    border: 1.5px solid var(--color-border-light);         
 }
 
 .line-top {
-    border-top: 1.5px solid #D6D6D6 ;
+    border-top: 1.5px solid var(--color-border-light);
 }
 
 .line-bottom {
-    border-bottom: 1.5px solid #D6D6D6 ;
+    border-bottom: 1.5px solid var(--color-border-light);
 }
 
 .margin-botton-20px {
@@ -75,13 +98,13 @@ a, a:hover {
 }
 
 .btn-comprar, .btn-finalizar {
-    color: #FFF;
-    background-color: #3485fB;
+    color: var(--color-font-white);
+    background-color: var(--color-btn-blue);
     border: none;   
 }
 
 .btn-voltar, .btn-continuar {
-    color: #3485fB;
-    background-color: #fff;
-    border: 1.5px solid #3485fB;
+    color: var(--color-btn-blue);
+    background-color: var(--color-bg-white);
+    border: 1.5px solid var(--color-border-blue);
 }
