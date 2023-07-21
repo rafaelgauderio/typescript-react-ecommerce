@@ -149,4 +149,11 @@ a:hover {
   .ec-btn-container {
     width: 240px;
   }
+
+}
+
+@media (min-width: 768px ) {
+    .ec-btn-show-more {
+        width: 260px;
+    }
 }
