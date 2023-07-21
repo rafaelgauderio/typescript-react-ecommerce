@@ -1,0 +1,48 @@
+@import url("styles.css");
+
+#catalog-details-section {
+  padding: 20px 0;
+}
+
+.ec-clean,
+.ec-search {
+  display: none;
+}
+
+.ec-catalog-card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ec-catalog-card-top img {
+  width: 160px;
+  height: 160px;
+}
+
+.ec-catalog-card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ec-catalog-card-bottom h4 {
+  color: var(--color-font-primary);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.ec-catalog-card-bottom h3 {
+  color: var(--color-font-secondary);
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .ec-clean,
+  .ec-search {
+    display: unset;
+    font-size: 14px;
+    padding: 5px;
+  }
+}
