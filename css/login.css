@@ -1,0 +1,15 @@
+@import url("styles.css");
+
+#login-section {
+    padding: 20px 0;    
+}
+
+.ec-login-form-container {   
+    margin: 0 auto; /* centralizar horizantalmente */
+    width: 100%;
+    max-width: 380px; /* desktop screen */
+}
+
+.ec-login-form-buttons {
+    width: 100%;
+}
