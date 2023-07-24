@@ -215,7 +215,7 @@ a:hover {
   width: 100%;
   display: grid;
   grid-gap: 20px;
-  margin: 20px 0;  
+  margin: 20px 0;
 }
 
 .ec-form-input {
@@ -231,9 +231,17 @@ a:hover {
   outline: none;
 }
 
+.ec-form-error {
+  color: var(--color-danger);
+  padding: 5px 4px;
+  font-size: 12px;
+}
+
+.ec-input-error {
+  border: 1px solid var(--color-danger);
+}
 
 /*form styles */
-
 
 @media (min-width: 576px) {
   .ec-btn-container {
@@ -243,11 +251,14 @@ a:hover {
   .ec-search-bar button {
     width: 150px;
   }
+
+  .ec-form-general h2 {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 768px) {
   .ec-btn-show-more {
     width: 260px;
   }
- 
 }

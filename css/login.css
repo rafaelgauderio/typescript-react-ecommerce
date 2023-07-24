@@ -13,3 +13,11 @@
 .ec-login-form-buttons {
     width: 100%;
 }
+
+@media (min-width: 576px) {
+
+    #login-section {
+        padding-top: 50px;
+        padding-bottom: 50px;  
+    }
+} 
