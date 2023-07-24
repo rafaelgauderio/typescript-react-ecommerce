@@ -1,0 +1,20 @@
+@import url("styles.css");
+@import url("cart.css");
+
+#confirmation-section {
+  padding: 20px 0;
+}
+
+.ec-confirmation-message p {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-font-primary);
+}
+
+@media (min-width: 576px) {
+  .ec-confirmation-message p {
+    font-size: 24px;
+    text-align: left;
+  }
+}
