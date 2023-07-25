@@ -5,19 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eletronics Ecommerce</title>
 
-        <link rel="stylesheet" href="css/styles.css"/>
-        <link rel="stylesheet" href="css/cart.css"/>
+        <link rel="stylesheet" href="css/confirmation.css"/>
 
     </head>
     <body>
         <header>
             <nav class="ec-container">
                 <h1>Eletronics Ecommerce</h1>
-                <a href="logar">Entrar</a>
+                <div class="ec-looged-user">
+                    <p>Rafael de Luca</p>
+                    <a href="logar">Sair</a>
+                </div>                
             </nav>
         </header>
         <main>
-            <section id="cart-details-section" class="ec-container">
+            <section id="confirmation-section" class="ec-container">
                 <div class="ec-card-general ec-margin-bottom-20px">
                     <div class="ec-cart-item-container ec-line-bottom">
                         <div class="ec-cart-item-left">
@@ -25,9 +27,7 @@
                             <div class="ec-cart-item-parameters">
                                 <h3>Computador Inter i5</h3>
                                 <div class="ec-cart-item-buttons-container">
-                                    <button class="ec-cart-btn-minus">-</button>
                                     <p>1</p>
-                                    <button class="ec-cart-btn-more">+</button>
                                 </div>
                             </div>
                         </div>
@@ -39,9 +39,7 @@
                             <div class="ec-cart-item-parameters">
                                 <h3>Tablet Sansung</h3>
                                 <div class="ec-cart-item-buttons-container">
-                                    <button class="ec-cart-btn-minus">-</button>
                                     <p>2</p>
-                                    <button class="ec-cart-btn-more">+</button>
                                 </div>
                             </div>
                         </div>
@@ -53,9 +51,7 @@
                             <div class="ec-cart-item-parameters">
                                 <h3>Tablet Xixaomiro</h3>
                                 <div class="ec-cart-item-buttons-container">
-                                    <button class="ec-cart-btn-minus">-</button>
                                     <p>1</p>
-                                    <button class="ec-cart-btn-more">+</button>
                                 </div>
                             </div>
                         </div>
@@ -66,9 +62,11 @@
                         <h3>R$ 24.000,00</h3>
                     </div>
                 </div>
+                <div class="ec-margin-bottom-20px ec-confirmation-message">
+                    <p>Pedido finalizado com sucesso. Número 167</p>
+                </div>
                 <div class="ec-btn-container">
-                    <button class="ec-btn ec-btn-finalizar">Finalizar Pedido</button>
-                    <button class="ec-btn ec-btn-continuar">Continuar Comprando</button>
+                    <button class="ec-btn ec-btn-continuar">Voltar</button>
                 </div>
             </section>
         </main>
