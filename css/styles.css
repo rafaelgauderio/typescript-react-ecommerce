@@ -61,6 +61,13 @@ main {
 .ec-margin-top-20px {
   margin-top: 20px;
 }
+
+.ec-section-title {
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-font-primary);
+}
+
 /* generic styles */
 
 /* header and nav syles */
@@ -138,7 +145,8 @@ a:hover {
 .ec-btn-voltar,
 .ec-btn-continuar,
 .ec-btn-show-more,
-.ec-btn-cancel {
+.ec-btn-cancel,
+.ec-btn-new {
   color: var(--color-btn-blue);
   background-color: var(--color-bg-white);
   border: 1.5px solid var(--color-border-blue);
@@ -251,6 +259,22 @@ a:hover {
 
 /*form styles */
 
+/* table styles */
+.ec-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.ec-table thead {
+  background-color: var(--color-bg-white);
+}
+
+.ec-table tbody {
+  background-color: var(--color-bg-white);
+}
+
+/* table styles */
 @media (min-width: 576px) {
   .ec-btn-container {
     width: 240px;
@@ -262,7 +286,7 @@ a:hover {
 
   .ec-form-general h2 {
     font-size: 24px;
-  }  
+  }
 }
 
 @media (min-width: 768px) {
