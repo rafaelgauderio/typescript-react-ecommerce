@@ -137,7 +137,8 @@ a:hover {
 
 .ec-btn-voltar,
 .ec-btn-continuar,
-.ec-btn-show-more {
+.ec-btn-show-more,
+.ec-btn-cancel {
   color: var(--color-btn-blue);
   background-color: var(--color-bg-white);
   border: 1.5px solid var(--color-border-blue);
