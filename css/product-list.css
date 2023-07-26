@@ -1,0 +1,37 @@
+@import url("styles.css");
+
+#product-list-section {
+  padding: 20px 0;  
+}
+
+.ec-clean,
+.ec-search {
+  display: none;
+}
+
+.ec-btn-new {
+  height: 50px;
+}
+
+.ec-product-list-image {
+  height: 70px;
+  width: 70px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.ec-product-list-btn {
+  margin: 0 5px;
+  width: auto;
+  height: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .ec-clean,
+  .ec-search {
+    display: unset;
+    font-size: 14px;
+    padding: 10px;
+  }
+}

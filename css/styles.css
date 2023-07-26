@@ -61,6 +61,13 @@ main {
 .ec-margin-top-20px {
   margin-top: 20px;
 }
+
+.ec-section-title {
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-font-primary);
+}
+
 /* generic styles */
 
 /* header and nav syles */
@@ -137,7 +144,9 @@ a:hover {
 
 .ec-btn-voltar,
 .ec-btn-continuar,
-.ec-btn-show-more {
+.ec-btn-show-more,
+.ec-btn-cancel,
+.ec-btn-new {
   color: var(--color-btn-blue);
   background-color: var(--color-bg-white);
   border: 1.5px solid var(--color-border-blue);
@@ -250,6 +259,56 @@ a:hover {
 
 /*form styles */
 
+/* table styles */
+.ec-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.ec-table thead th {
+  background-color: var(--color-bg-white);
+  color: var(--color-font-primary);
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.ec-table tbody tr td {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.ec-table tbody {
+  background-color: var(--color-bg-white);
+  color: var(--color-font-primary);
+  font-size: 13px;
+}
+
+.ec-table tbody tr {
+  border-top: 1.5px solid var(--color-border-light);
+  height: 71.5px; /* tamanho da imagem mais a borda */
+}
+
+.ec-table-bootstrap-576px {
+  display: none;
+}
+
+.ec-table td:nth-child(2) {
+  padding-left: 10px;
+}
+
+.ec-table th:nth-child(2) {
+  border-top-left-radius: 8px;
+}
+
+.ec-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+/* table styles */
 @media (min-width: 576px) {
   .ec-btn-container {
     width: 240px;
@@ -261,11 +320,43 @@ a:hover {
 
   .ec-form-general h2 {
     font-size: 24px;
-  }  
+  }
+
+  .ec-table-bootstrap-576px {
+    display: table-cell; /* fazer os itens reparecerem nesse breakpoint */
+  }
+
+  .ec-table td:nth-child(2) {
+    padding-left: 0;
+  }
+
+  .ec-table th:nth-child(2) {
+    border-top-left-radius: 0;
+  }
+
+  .ec-table th:nth-child(1) {
+    border-top-left-radius: 8px; /* arredona o primeiro th nesse breakpoint */
+  }
 }
 
 @media (min-width: 768px) {
   .ec-btn-show-more {
     width: 260px;
+  }
+
+  .ec-table td:nth-child(1),
+  .ec-table th:nth-child(1) {
+    padding-left: 30px;
+  }
+
+  .ec-section-title {
+    font-size: 25px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .ec-table tbody {
+    font-size: 18px;
   }
 }

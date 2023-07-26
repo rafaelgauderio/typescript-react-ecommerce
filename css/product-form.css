@@ -1,0 +1,49 @@
+@import url("styles.css");
+
+#product-form-section {
+  padding: 20px 0;
+}
+
+.ec-product-form-container {
+  margin: 0 auto; /* centralizar horizantalmente */
+  width: 100%;
+  max-width: 520px; /* desktop screen */
+}
+
+.ec-product-form-buttons {
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  /*(grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); */
+}
+
+.ec-form-select:invalid {
+  color: var(--color-font-placeholder);
+}
+
+.ec-form-select option[disabled] {
+  display: none;
+}
+
+.ec-form-select option {
+  color: var(--color-font-primary);
+}
+
+.ec-form-textarea {
+    resize: none; /* não deixa redimensiona a area */
+    padding-top: 15px;
+    height: 130px;
+
+}
+
+@media (min-width: 576px) {
+  #product-form-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .ec-product-form-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+}
