@@ -1,7 +1,7 @@
 @import url("styles.css");
 
 #product-list-section {
-  padding: 20px 0;
+  padding: 20px 0;  
 }
 
 .ec-clean,
@@ -13,14 +13,18 @@
   height: 50px;
 }
 
-.ec-product-list-image {  
+.ec-product-list-image {
   height: 70px;
-  width: 70px; 
+  width: 70px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
-.ec-table th {
-  text-align: left;
-  padding: 5px 0;
+.ec-product-list-btn {
+  margin: 0 5px;
+  width: auto;
+  height: 20px;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {

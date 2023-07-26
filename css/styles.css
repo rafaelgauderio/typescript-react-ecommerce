@@ -263,16 +263,35 @@ a:hover {
 .ec-table {
   width: 100%;
   border-spacing: 0;
-  border-collapse: collapse;
+  border-collapse: collapse;   
 }
 
-.ec-table thead {
+.ec-table thead th{
   background-color: var(--color-bg-white);
+  color: var(--color-font-primary);
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left; 
+  padding-left: 5px; 
+}
+
+.ec-table tbody tr td {
+  text-align: left;
+  padding-left: 5px;
 }
 
 .ec-table tbody {
   background-color: var(--color-bg-white);
+  color: var(--color-font-primary);
+  font-size: 13px;
 }
+
+.ec-table tbody tr {
+  border-top: 1.5px solid var(--color-border-light);
+  height: 71.5px; /* tamanho da imagem mais a borda */
+}
+
 
 /* table styles */
 @media (min-width: 576px) {
