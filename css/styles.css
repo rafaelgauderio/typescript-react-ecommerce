@@ -87,7 +87,8 @@ nav {
   color: var(--color-font-primary);
 }
 
-nav a {
+nav a,
+nav h1 {
   font-size: 16px;
   font-weight: 700;
 }
@@ -99,12 +100,35 @@ a:hover {
   text-transform: uppercase;
 }
 
+.ec-navbar-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.ec-menu-items-container {
+  display: flex;
+}
+
+.ec-menu-items-container img {
+  height: 20px;
+  width: 20px;
+}
+
+.ec-menu-item {
+  margin-right: 20px;
+}
+
 .ec-looged-user {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   font-size: 14px;
 }
+
+.ec-menu-items-container {
+  display: flex;
+}
+
 /* header and nav syles */
 
 /* card styles */
@@ -337,6 +361,15 @@ a:hover {
   .ec-table th:nth-child(1) {
     border-top-left-radius: 8px; /* arredona o primeiro th nesse breakpoint */
   }
+
+  .ec-menu-items-container img {
+    height: 25px;
+    width: 25px;
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -352,6 +385,10 @@ a:hover {
   .ec-section-title {
     font-size: 25px;
     text-align: left;
+  }
+
+  nav h1 {
+    font-size: 25px;
   }
 }
 

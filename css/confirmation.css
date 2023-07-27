@@ -12,6 +12,7 @@
   color: var(--color-font-primary);
 }
 
+
 @media (min-width: 576px) {
   .ec-confirmation-message p {
     font-size: 24px;
