@@ -2,8 +2,9 @@
 
 :root {
   --color-bg-primary: #e6e6e6;
-  --color-bg-secondary: #90ee90;
-  --color-bg-white: #fff;
+  --color-bg-secondary: #40d340;
+  --color-bg-tertiary: #0f408a;
+  --color-bg-white: #fff;  
 
   --color-border-blue: #3485fb;
   --color-border-light: #d6d6d6;
@@ -79,12 +80,21 @@ header {
   padding: 0 15px;
 }
 
+.ec-header-client {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-white);
+}
+
+.ec-header-admin-panel {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-font-white);
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  color: var(--color-font-primary);
+  align-items: center;  
 }
 
 nav a,
@@ -111,18 +121,25 @@ a:hover {
 
 .ec-menu-items-container img {
   height: 20px;
-  width: 20px;
+  width: 20px;  
 }
 
 .ec-menu-item {
-  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  margin-right: 20px;  
+}
+
+.ec-menu-item p {
+  margin-left: 5px;
 }
 
 .ec-looged-user {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  font-size: 14px;
+  align-items: flex-end;  
+  font-size: 14px;  
 }
 
 .ec-menu-items-container {
