@@ -63,10 +63,14 @@ main {
   margin-top: 20px;
 }
 
-.ec-section-title {
+.ec-section-title , .ec-section-subtitle {
   font-size: 18px;
   text-align: center;
   color: var(--color-font-primary);
+}
+
+.ec-section-subtitle {
+  font-size: 16px;   
 }
 
 /* generic styles */
@@ -413,6 +417,10 @@ a:hover {
 
   .ec-section-title {
     font-size: 25px;
+    text-align: left;
+  }
+
+  .ec-section-subtitle {
     text-align: left;
   }
 
