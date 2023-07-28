@@ -6,6 +6,8 @@
   --color-bg-tertiary: #0f408a;
   --color-bg-white: #fff;
 
+  --color-shadow-box: #b7b7b7;
+
   --color-border-blue: #3485fb;
   --color-border-light: #d6d6d6;
 
@@ -259,6 +261,11 @@ a:hover {
 .ec-search-bar input::placeholder {
   color: var(--color-font-placeholder);
   text-align: left;
+}
+
+.ec-box-shadow {
+  box-shadow: 2px 2px 4px 4px var(--color-shadow-box);
+  border-radius: 8px;
 }
 /*search styles*/
 
