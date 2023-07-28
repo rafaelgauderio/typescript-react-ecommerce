@@ -9,13 +9,25 @@
 
     </head>
     <body>
-        <header>
+        <header class="ec-header-admin-panel">
             <nav class="ec-container">
-                <h1>Eletronics Ecommerce</h1>
-                <div class="ec-looged-user">
-                    <p>Rafael de Luca</p>
-                    <a href="logar">Sair</a>
-                </div>    
+                <h1>Painel do Admin</h1>
+                <div class="ec-navbar-header-right">
+                    <div class="ec-menu-items-container">
+                        <div class="ec-menu-item">
+                            <img src="images/home.svg" alt="Voltar para Home"/>
+                            <p>Home</p>
+                        </div>
+                        <div class="ec-menu-item">
+                            <img src="images/products.svg" alt="Cadastro de Produtos"/>
+                            <p class="ec-menu-item-active">Produtos</p>
+                        </div>
+                    </div>
+                    <div class="ec-looged-user">
+                        <p>Rafael de Luca</p>
+                        <a href="logar">Sair</a>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
@@ -25,13 +37,13 @@
                         <h2>Cadastro de Produto</h2>
                         <div class="ec-form-inputs-container">
                             <div>
-                                <input class="ec-form-input"  type="text" placeholder="Nome"/>                                
+                                <input class="ec-form-input" type="text" placeholder="Nome"/>
                             </div>
                             <div>
-                                <input class="ec-form-input" type="text" placeholder="Preço"/>                                
+                                <input class="ec-form-input" type="text" placeholder="Preço"/>
                             </div>
                             <div>
-                                <input class="ec-form-input" type="text" placeholder="Imagem"/>                                
+                                <input class="ec-form-input" type="text" placeholder="Imagem"/>
                             </div>
                             <div>
                                 <select class="ec-form-input ec-form-select" required>
